@@ -11,10 +11,13 @@
   "quotation_historical_data_limit",
   "sales_order_historical_data_limit",
   "purchase_order_historical_data_limit",
+  "purchase_receipt_historical_data_limit",
   "column_break_dwrav",
   "rfq_historical_data_limit",
   "supplier_quotation_historical_data_limit",
-  "sales_invoice_historical_data_limit"
+  "sales_invoice_historical_data_limit",
+  "purchase_invoice_historical_data_limit",
+  "delivery_note_historical_data_limit"
  ],
  "fields": [
   {
@@ -68,13 +71,31 @@
    "fieldname": "sales_invoice_historical_data_limit",
    "fieldtype": "Int",
    "label": "Sales Invoice Historical Data Limit"
+  },
+  {
+   "default": "3",
+   "fieldname": "purchase_receipt_historical_data_limit",
+   "fieldtype": "Int",
+   "label": "Purchase Receipt Historical Data Limit"
+  },
+  {
+   "default": "3",
+   "fieldname": "purchase_invoice_historical_data_limit",
+   "fieldtype": "Int",
+   "label": "Purchase Invoice Historical Data Limit"
+  },
+  {
+   "default": "3",
+   "fieldname": "delivery_note_historical_data_limit",
+   "fieldtype": "Int",
+   "label": "Delivery Note Historical Data Limit"
   }
  ],
  "index_web_pages_for_search": 1,
  "issingle": 1,
  "links": [],
- "modified": "2026-01-20 23:55:56.422037",
- "modified_by": "akram.mutaher.a@gmail.com",
+ "modified": "2026-02-04 11:25:39.655771",
+ "modified_by": "Administrator",
  "module": "Price Lookup",
  "name": "Price Lookup Settings",
  "owner": "Administrator",
